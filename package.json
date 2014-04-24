@@ -1,0 +1,31 @@
+{
+  "name": "cv-url",
+  "version": "0.1.0",
+  "description": "The Official URL Validator",
+  "main": "index.js",
+  "browser": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/barrier $(find test -name '*_test.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:composed-validations/cv-url.git"
+  },
+  "keywords": [
+    "composed",
+    "validations",
+    "plugin",
+    "url",
+    "validator"
+  ],
+  "author": "Djalma Araujo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/composed-validations/cv-url/issues"
+  },
+  "homepage": "https://github.com/composed-validations/cv-url",
+  "devDependencies": {
+    "barriertest": "~0.4.1",
+    "composed-validations": "~0.4.0"
+  }
+}
