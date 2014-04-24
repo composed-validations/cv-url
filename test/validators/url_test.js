@@ -1,7 +1,7 @@
 var errorMessage, validationsLibrary, validator;
 
 validationsLibrary = require("composed-validations");
-urlValidator     = require("../../lib/validators/url.js")(validationsLibrary);
+urlValidator       = require("../../lib/validators/url.js")(validationsLibrary);
 errorMessage       = "is not a valid url";
 
 describe("URL Validator", function() {
